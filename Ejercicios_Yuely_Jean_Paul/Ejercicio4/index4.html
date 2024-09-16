@@ -1,0 +1,23 @@
+<<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 4</title> 
+</head>
+<body>
+    <h1>Calculadora</h1> <!-- Encabezado principal de la página -->
+    <input type="number" id="num1" placeholder="Número 1"> <!-- Campo para ingresar el primer número -->
+    <select id="operacion"> <!-- Selector para elegir la operación matemática -->
+        <option value="+">+</option> <!-- Opción de suma -->
+        <option value="-">-</option> <!-- Opción de resta -->
+        <option value=""></option> <!-- Espacio vacío para seleccionar, si es necesario -->
+        <option value="/">/</option> <!-- Opción de división -->
+    </select>
+    <input type="number" id="num2" placeholder="Número 2"> <!-- Campo para ingresar el segundo número -->
+    <button onclick="calcular()">Calcular</button> <!-- Botón para ejecutar la función de cálculo -->
+    <p id="resultado"></p> <!-- Elemento para mostrar el resultado del cálculo -->
+
+    <script src="/Ejercicio4/js/main_4E.js"></script> <!-- Enlaza el archivo JavaScript para la lógica de cálculo -->
+</body>
+</html>

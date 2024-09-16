@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to right, #2cb137, #97a32a, #b62929);
+    font-family: 'Arial', sans-serif;/*Fuente*/
+    color: white; /*Color de la letra*/
+    text-align: center; /*Pone el texto al centro*/
+}
+h1{
+    font-size: 2.5em; /* Tamaño grande para el título */
+    margin-bottom: 20px; /* Espacio inferior del título */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra para el texto del título */
+}
+
+.circulo {
+    width: 120px;/*Ancho*/
+    height: 120px; /*Alto*/
+    border-radius: 50%;/*lo redondea un 50%*/
+    background-color: grey;/*Fondo*/
+    margin: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6); /*Le da sombra a el circulo*/
+    transition: background-color 0.5s, transform 0.5s;
+}
+.circulo:hover {/*Al pasar el cursor sobre el semaforo*/
+    transform: scale(1.1);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.8);
+}
